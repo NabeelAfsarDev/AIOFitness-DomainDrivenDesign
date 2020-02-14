@@ -266,6 +266,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIOFitness.DTO\AIOFitness.DTO.csproj">
+      <Project>{0c15915b-ea13-40c7-a0f1-96dbf6a01e0b}</Project>
+      <Name>AIOFitness.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIOFitness.Management\AIOFitness.Management.csproj">
+      <Project>{cdda0f7f-48ff-4db6-8b66-f810b974cfd4}</Project>
+      <Name>AIOFitness.Management</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

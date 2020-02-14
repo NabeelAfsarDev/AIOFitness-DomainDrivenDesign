@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIOFitness.DTO\AIOFitness.DTO.csproj">
+      <Project>{0c15915b-ea13-40c7-a0f1-96dbf6a01e0b}</Project>
+      <Name>AIOFitness.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
